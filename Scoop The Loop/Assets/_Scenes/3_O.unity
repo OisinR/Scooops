@@ -13912,6 +13912,7 @@ GameObject:
   - component: {fileID: 1073186848}
   - component: {fileID: 1073186847}
   - component: {fileID: 1073186846}
+  - component: {fileID: 1073186850}
   m_Layer: 0
   m_Name: Cone
   m_TagString: Untagged
@@ -14347,6 +14348,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073186844}
   m_Mesh: {fileID: 1548965978}
+--- !u!114 &1073186850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073186844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a731f64e7144e7545953a505eacc795b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 4
 --- !u!43 &1087127769
 Mesh:
   m_ObjectHideFlags: 0
@@ -18634,7 +18648,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh37208
+  m_Name: pb_Mesh44110
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29548,7 +29562,7 @@ PrefabInstance:
     - target: {fileID: 4846002613340966367, guid: 09621e6d4e84f574592372d67b7805fe,
         type: 3}
       propertyPath: scene
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09621e6d4e84f574592372d67b7805fe, type: 3}
