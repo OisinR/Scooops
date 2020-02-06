@@ -6,6 +6,17 @@ using UnityEngine.SceneManagement;
 public class Kill : MonoBehaviour
 {
     public int scene;
+    public bool death;
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
 
 
     private void OnCollisionEnter(Collision collision)
@@ -13,8 +24,13 @@ public class Kill : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Debug.Log("Hit");
+            if(death)
+            {
+                GameObject.FindGameObjectWithTag("music").GetComponentInChildren<SFX>().Die();
+            }
             SceneManager.LoadScene(scene);
         }
+
     }
 
 }

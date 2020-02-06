@@ -10,7 +10,7 @@ public class mouse : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            mL = !mL;
+            //mL = !mL;
         }
         if (mL)
         {

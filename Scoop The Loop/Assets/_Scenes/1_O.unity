@@ -1338,6 +1338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 1
+  death: 1
 --- !u!43 &358142631
 Mesh:
   m_ObjectHideFlags: 0
@@ -3903,6 +3904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 2
+  death: 0
 --- !u!65 &1073186851
 BoxCollider:
   m_ObjectHideFlags: 0
